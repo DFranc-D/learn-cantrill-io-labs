@@ -20,7 +20,9 @@ Wait for the STACK to move into the `CREATE_COMPLETE` state before continuing.
 # STAGE 1B - Create an EC2 Instance to run wordpress
 
 Move to the EC2 console https://console.aws.amazon.com/ec2/v2/home?region=us-east-1  
+
 Click `Launch Instance`  
+Name Wordpress-Manual
 Locate the `Amazon Linux 2 AMI (HVM), SSD Volume Type` AMI  
 ensure `64-bit (x86)` is selected  
 Click `Select`
